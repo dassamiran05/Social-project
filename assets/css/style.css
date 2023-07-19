@@ -608,3 +608,9 @@ main .container .right{
         display: none;
     }
 }
+
+@media screen and (max-width:600px){
+    main .container .left{
+        display:none;
+    }
+}

@@ -581,9 +581,9 @@ main .container .right{
     main .container .left{
         grid-column: 3/4;
         position: fixed;
-        top: 50%;
-        transform: translateY(-50%);
-        /* bottom: 0; */
+        /* top: 50%;
+        transform: translateY(-50%); */
+        bottom: 0;
         right: 0;
     }
 

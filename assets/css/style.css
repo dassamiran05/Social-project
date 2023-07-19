@@ -29,7 +29,8 @@
   --card-padding: 1rem;
 
   --sticky-top-left: 5.4rem;
-  --sticky-top-right: 8rem;
+  /* --sticky-top-right: 8rem; */
+  --sticky-top-right: 5.4rem;
 }
 
 body {
@@ -531,6 +532,10 @@ main .container .right{
     margin-bottom: 1rem;
 }
 
+.right .request .info p{
+    font-size: 0.9rem;
+}
+
 .right .request .action{
     display: flex;
     gap: 1rem;
@@ -576,7 +581,9 @@ main .container .right{
     main .container .left{
         grid-column: 3/4;
         position: fixed;
-        bottom: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        /* bottom: 0; */
         right: 0;
     }
 

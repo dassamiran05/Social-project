@@ -618,4 +618,8 @@ main .container .right{
     main .container .left{
         display:none;
     }
+
+    .middle .story .profile-pic{
+        width: 2.1rem;
+    }
 }
